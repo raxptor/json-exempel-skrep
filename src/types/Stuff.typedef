@@ -1,0 +1,23 @@
+enum PaneType
+{
+	TYPE_GURKA
+	TYPE_KALAS
+	TYPE_KULA
+}
+
+Pane
+{
+	s32 Left
+	s32 Top
+	s32 Right = 800
+	s32 Bottom = 600
+	enum PaneType Type 
+}
+
+Window
+{
+	string Title
+	s32 Width
+	s32 Height
+	Pane[] Panes 
+}

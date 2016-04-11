@@ -1,0 +1,17 @@
+{
+	"Width": 123,
+	"Height": 456,
+	"Panes" : [{
+		Left: 10,
+		Top: 343,
+		Right: 9,
+		Bottom: 33
+		Type: TYPE_KALAS	
+	},{
+		Left: 6,
+		Top: 7,
+		Right: 8,
+		Bottom: 9
+		Type: TYPE_GURKA
+	}]
+}
